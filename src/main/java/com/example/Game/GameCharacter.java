@@ -33,7 +33,7 @@ public class GameCharacter {
     // метод для установки оружия, но этот метод
     /*public void takeWeapon(Weapon weapon){
         this.weapon = weapon;
-    }*/
+    }*/////////////////////////////////////////////////////////////////////////////
 
     // chtoooojjjj
 
