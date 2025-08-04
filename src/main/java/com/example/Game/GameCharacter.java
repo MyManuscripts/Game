@@ -35,7 +35,7 @@ public class GameCharacter {
         this.weapon = weapon;
     }*/
 
-
+    // chtoooojjjj
 
     // пишем метод для вывода информации о персонаже 8
     public void printInfo(){
