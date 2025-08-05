@@ -1,7 +1,12 @@
 package com.example.Game;
 
-public class Ork extends GameCharacter { // 8
+public class Ork extends GameCharacter { // 9
     public Ork(){
-        super("com.example.Game.Ork",100,90, "super kick");
-    }  // 9
+        super("Ork",100,90, "super kick");
+        // создаем оружие   25
+        Weapon axe = new Weapon("axeFire",70);
+
+        // вручаем оружие   26
+        takeWeapon(axe);
+    }
 }

@@ -5,6 +5,7 @@ public class GameCharacter {
     private int health; // здоровье 3
     private int strength; // сила 4
     private String ability; // способность 5
+    private Weapon weapon; // оружие персонажа 21
 
 
     // создаем конструктор для передачи значений 6
@@ -26,16 +27,16 @@ public class GameCharacter {
     public int getStrength(){
         return strength;
     }
-    public String getAbility(){
-        return ability;
+    public String getAbility() {return ability; }
+
+
+    public void takeWeapon(Weapon weapon){ // установка оружия 22
+        this.weapon = weapon;
+    }
+    public Weapon getWeapon(){ // получение информации об оружии 23
+        return weapon;
     }
 
-    // метод для установки оружия, но этот метод
-    /*public void takeWeapon(Weapon weapon){
-        this.weapon = weapon;
-    }*/////////////////////////////////////////////////////////////////////////////
-
-    // chtoooojjjj
 
     // пишем метод для вывода информации о персонаже 8
     public void printInfo(){
@@ -43,6 +44,13 @@ public class GameCharacter {
         System.out.println("здороовье: " + health);
         System.out.println("сила: " + strength);
         System.out.println("способность: " + ability);
+
+        // добавляем информацию о вооружении 24 -> Ork
+        if (getWeapon()!= null){
+        System.out.println("оружие: " + weapon.getName() + " урон: " + weapon.getDamage());
+        }else {
+            System.out.println("оружие отсутствует");
+        }
     }
 
 

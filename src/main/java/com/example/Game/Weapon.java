@@ -1,8 +1,8 @@
 package com.example.Game;
 
 public class Weapon {       // 16
-    private String name;
-    private int damage;
+    private String name; // название
+    private int damage; // урон
 
     // конструктор
     public Weapon(String name, int damage){     // 17
@@ -19,7 +19,7 @@ public class Weapon {       // 16
         return damage;
     }          // 19
     // вывод информации
-    public void weaponInfo(){                       // 20
+    public void weaponInfo(){                       // 20 -> GameCharacter
         System.out.println("weapon name: " + name);
         System.out.println("weapon damage: " + damage);
     }
