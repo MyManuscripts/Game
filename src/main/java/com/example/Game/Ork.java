@@ -10,3 +10,4 @@ public class Ork extends GameCharacter { // 9
         takeWeapon(axe);
     }
 }
+
