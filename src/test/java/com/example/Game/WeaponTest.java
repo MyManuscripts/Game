@@ -14,5 +14,5 @@ public class WeaponTest {
     public void CreateWeaponTest(){
         assertEquals("axe",weapon.getName());
         assertEquals(70,weapon.getDamage());
-    }/////////////////////////
+    }/////////////////////////////////git
 }
