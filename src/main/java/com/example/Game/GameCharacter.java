@@ -32,10 +32,12 @@ public class GameCharacter {
 
     public void takeWeapon(Weapon weapon){ // установка оружия 22
         this.weapon = weapon;
+
     }
     public Weapon getWeapon(){ // получение информации об оружии 23
         return weapon;
     }
+
 
 
     // пишем метод для вывода информации о персонаже 8
