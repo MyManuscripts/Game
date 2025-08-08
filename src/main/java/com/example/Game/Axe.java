@@ -17,11 +17,11 @@ public class Axe implements Weapon{  // 30
 
     @Override                   // 31
     public String getName(){
-        System.out.println("Axe");
+        return name;
     }
     @Override                   // 32
     public int getDamage(){
-        System.out.println(70);
+        return damage;
     }
 
     @Override

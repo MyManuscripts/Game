@@ -13,11 +13,11 @@ public class Sword implements Weapon{ // 3
 
     @Override                   // 34
     public String getName(){
-        System.out.println("Sword");
+        return name;
     }
     @Override                   // 35
     public int getDamage(){
-        System.out.println(80);
+        return damage;
     }
 
     @Override
