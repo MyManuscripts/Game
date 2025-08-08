@@ -48,13 +48,11 @@ public class GameCharacter {
         System.out.println("способность: " + ability);
 
         // добавляем информацию о вооружении 24 -> Ork
-        if (getWeapon()!= null){
+       /* if (getWeapon()!= null){
         System.out.println("оружие: " + weapon.getName() + " урон: " + weapon.getDamage());
         }else {
             System.out.println("оружие отсутствует");
-        }
+        }*/
     }
-
-
 
 }

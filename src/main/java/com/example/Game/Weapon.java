@@ -1,7 +1,11 @@
 package com.example.Game;
 
-public class Weapon {       // 16
-    private String name; // название
+public interface Weapon {       // 16
+
+
+}
+
+    /*private String name; // название
     private int damage; // урон
 
     // конструктор
@@ -23,5 +27,5 @@ public class Weapon {       // 16
         System.out.println("weapon name: " + name);
         System.out.println("weapon damage: " + damage);
     }
-    // теперь обновим класс GameCharacter
-}
+    // теперь обновим класс GameCharacter */
+

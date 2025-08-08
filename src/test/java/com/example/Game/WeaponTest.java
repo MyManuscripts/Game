@@ -4,7 +4,10 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class WeaponTest {
-    private Weapon weapon;
+
+
+}
+   /* private Weapon weapon;
 
     public void setWeapon(){
         weapon = new Weapon("axe",70);
@@ -14,5 +17,5 @@ public class WeaponTest {
     public void CreateWeaponTest(){
         assertEquals("axe",weapon.getName());
         assertEquals(70,weapon.getDamage());
-    }/////////////////////////////////git
-}
+    }*/
+
