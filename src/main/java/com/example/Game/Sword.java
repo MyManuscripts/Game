@@ -12,12 +12,17 @@ public class Sword implements Weapon{ // 3
 
 
     @Override                   // 34
-    public void install() {
-        System.out.println("Sword install");
+    public String getName(){
+        System.out.println("Sword");
     }
     @Override                   // 35
-    public void fire(){
-        System.out.println("Sword attack!");
+    public int getDamage(){
+        System.out.println(80);
+    }
+
+    @Override
+    public  void attack(){
+        System.out.println("Sword attack with damage - " + damage + " !");
     }
 }
 
