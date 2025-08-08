@@ -30,13 +30,13 @@ public class GameCharacter {
     public String getAbility() {return ability; }
 
 
-    public void takeWeapon(Weapon weapon){ // установка оружия 22
+    /*public void takeWeapon(Weapon weapon){ // установка оружия 22
         this.weapon = weapon;
-
     }
+
     public Weapon getWeapon(){ // получение информации об оружии 23
         return weapon;
-    }
+    }*/                            // 36
 
 
 

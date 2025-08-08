@@ -1,7 +1,9 @@
 package com.example.Game;
 
-public interface Weapon {       // 16
-
+public interface Weapon {       // 16  // 27
+    String getName(); // название оружие 28
+    int getDamage(); // урон
+    void attack(); // действие при атаке 29
 
 }
 
