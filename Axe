@@ -1,0 +1,60 @@
+[33mcommit 3eaef5952ba5dfaaaa97ee81f79029f3e9186699[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Fri Aug 8 15:16:16 2025 +0300
+
+    weapon it's interface
+
+[33mcommit 8b0a7428ac2fe9c1f551841c0d53edf92aa9fbb7[m
+Merge: b7cccdc c595903
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Thu Aug 7 16:45:21 2025 +0300
+
+    Resolved merge conflict in GameCharacter.java
+
+[33mcommit b7cccdc1f0cd50b0cc86b1eb4f83fcc96082bab5[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Thu Aug 7 16:38:47 2025 +0300
+
+    create weapon test
+
+[33mcommit 7fefc996ba170dff9e8a3a4d31dbc3ce2c0eadf4[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Thu Aug 7 16:36:07 2025 +0300
+
+    create weapon test2
+
+[33mcommit a4c472b9fe74999ea71e6c6f3a3abc32215f9a68[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Thu Aug 7 16:00:45 2025 +0300
+
+    create wepon test
+
+[33mcommit 9b6432154438eee4ef8a244ae6071ae5d898cee9[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Tue Aug 5 17:17:54 2025 +0300
+
+    project game have class weapon
+
+[33mcommit 5f5f1bef3156c2ba5a416b95496a929bce0c0e0a[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Mon Aug 4 13:39:35 2025 +0300
+
+    test 2
+
+[33mcommit 96e20f10ad1e4935ebe394e6b645945f0ca44e84[m[33m ([m[1;31morigin/testBranch[m[33m, [m[1;32mtestBranch[m[33m)[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Mon Aug 4 16:17:13 2025 +0300
+
+    write chtoooojjjj
+
+[33mcommit c5959033ab50832d3a7fcf5e38e4cf7a7136c532[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Mon Aug 4 13:39:35 2025 +0300
+
+    test 2
+
+[33mcommit 529eaaa92237f595cb4392198a1762c69540ebca[m
+Author: Dmitry <dmitrykulikov99@gmail.com>
+Date:   Mon Aug 4 13:32:09 2025 +0300
+
+    test
