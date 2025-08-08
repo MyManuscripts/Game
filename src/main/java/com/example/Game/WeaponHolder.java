@@ -1,7 +1,12 @@
 package com.example.Game;
 
-public class WeaponManager {  // класс, который будет управлять выбором и установкой оружия 37
-    private Weapon currentWeapon; // создаем экземпляр интерфейса
+public interface  WeaponHolder {  // кто может держать оружие 37
+    void takeWeapon(Weapon weapon);
+    Weapon getWeapon();
+    boolean hasWeapon();
+}
+
+    /*private Weapon currentWeapon; // создаем экземпляр интерфейса
 
     // Пишем метод для установки оружия
 
@@ -16,6 +21,6 @@ public class WeaponManager {  // класс, который будет упра�
         }else {
             System.out.println("haven't weapon");
         }
-    }
+    }*/
 
-}
+
