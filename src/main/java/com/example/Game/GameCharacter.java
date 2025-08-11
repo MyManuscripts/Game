@@ -72,6 +72,12 @@ public class GameCharacter implements WeaponHolder{ // 41
         System.out.println("сила: " + strength);
         System.out.println("способность: " + ability);
 
+        if (hasWeapon()){
+            System.out.println("оружие " + weapon.getName() + " ,урон " + weapon.getDamage());
+        }else {
+            System.out.println("Оружие отсутствует");
+        }
+
         // добавляем информацию о вооружении 24 -> Ork
        /* if (getWeapon()!= null){
         System.out.println("оружие: " + weapon.getName() + " урон: " + weapon.getDamage());
