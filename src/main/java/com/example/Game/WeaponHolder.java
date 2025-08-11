@@ -1,9 +1,9 @@
 package com.example.Game;
 
 public interface  WeaponHolder {  // кто может держать оружие 37
-    void takeWeapon(Weapon weapon); // взять оружие
-    Weapon getWeapon(); // получить оружие
-    boolean hasWeapon(); // наличие оружия
+    void takeWeapon(Weapon weapon); // взять оружие 38
+    Weapon getWeapon(); // получить оружие 39
+    boolean hasWeapon(); // наличие оружия 40
 }
 
     /*private Weapon currentWeapon; // создаем экземпляр интерфейса
