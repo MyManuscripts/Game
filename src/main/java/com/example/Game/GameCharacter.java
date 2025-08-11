@@ -1,6 +1,6 @@
 package com.example.Game;
 
-public class GameCharacter {
+public class GameCharacter implements WeaponHolder{
     private String race; // раса 2
     private int health; // здоровье 3
     private int strength; // сила 4
@@ -37,6 +37,22 @@ public class GameCharacter {
     public Weapon getWeapon(){ // получение информации об оружии 23
         return weapon;
     }*/                            // 36
+
+    // реализуем интерфейс WeaponHolder
+    @Override
+    public void takeWeapon(Weapon weapon){
+        System.out.println(race + " взял оружие");
+    }
+
+    @Override
+    public Weapon getWeapon(){
+        return weapon;
+    }
+
+    @Override
+    public boolean hasWeapon(){
+        return weapon != null;
+    }
 
 
 
