@@ -8,6 +8,10 @@ public class Ork extends GameCharacter { // 9
 
         // вручаем оружие   26 -> теперь weapon делаем интерфейсом
         takeWeapon(axe);*/
+
+        // Орк берет оружие
+        takeWeapon(new Axe("Axe", 75));
+
     }
 }
 
