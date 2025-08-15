@@ -4,6 +4,6 @@ public class Elf extends GameCharacter{
     Elf(){
         super("Elf",100,75,"Invisible");
 
-        takeWeapon("");
+        takeWeapon(new Crossbow("Crossbow", 75));
     }
 }
