@@ -1,5 +1,6 @@
 package com.example.Game.launcher;
 
+import com.example.Game.battle.BattleSystem;
 import com.example.Game.character.Elf;
 import com.example.Game.character.Ork;
 import org.springframework.boot.SpringApplication;
@@ -14,6 +15,15 @@ public class GameApplication {
 
 		Ork ork = new Ork();
 		Elf elf = new Elf();
+
+		System.out.println("info: ");
+		ork.printInfo();
+		System.out.println();
+		elf.printInfo();
+		System.out.println();
+
+		BattleSystem battleSystem = new BattleSystem(); // start battle
+
 
 	}
 
