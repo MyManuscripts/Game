@@ -1,4 +1,4 @@
-package com.example.Game;
+package com.example.Game.weapon;
 
 public interface  WeaponHolder {  // кто может держать оружие 37
     void takeWeapon(Weapon weapon); // взять оружие 38 // функция взять оружие (в которую передаем оружие)

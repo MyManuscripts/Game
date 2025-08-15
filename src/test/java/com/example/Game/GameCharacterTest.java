@@ -1,6 +1,6 @@
 package com.example.Game;
 
-import com.example.Game.GameCharacter;
+import com.example.Game.character.GameCharacter;
 
 import static org.junit.Assert.assertEquals;
 

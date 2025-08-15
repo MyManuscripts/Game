@@ -1,6 +1,9 @@
-package com.example.Game;
+package com.example.Game.character;
 
-public class GameCharacter implements WeaponHolder{ // 41
+import com.example.Game.weapon.Weapon;
+import com.example.Game.weapon.WeaponHolder;
+
+public class GameCharacter implements WeaponHolder { // 41
     private String race; // раса 2
     private int health; // здоровье 3
     private int strength; // сила 4

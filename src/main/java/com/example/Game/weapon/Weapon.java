@@ -1,4 +1,4 @@
-package com.example.Game;
+package com.example.Game.weapon;
 
 public interface Weapon {       // 16  // 27
     String getName(); // название оружие 28

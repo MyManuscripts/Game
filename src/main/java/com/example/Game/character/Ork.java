@@ -1,4 +1,6 @@
-package com.example.Game;
+package com.example.Game.character;
+
+import com.example.Game.weapon.Axe;
 
 public class Ork extends GameCharacter { // 9
     public Ork(){

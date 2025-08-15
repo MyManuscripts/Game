@@ -1,6 +1,6 @@
-package com.example.Game;
+package com.example.Game.weapon;
 
-public class Axe implements Weapon{  // 30
+public class Axe implements Weapon {  // 30
 
     // поля для axe
     private String name;

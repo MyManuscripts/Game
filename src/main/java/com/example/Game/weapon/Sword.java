@@ -1,6 +1,6 @@
-package com.example.Game;
+package com.example.Game.weapon;
 
-public class Sword implements Weapon{ // 3
+public class Sword implements Weapon { // 3
 
     private String name;
     private int damage;

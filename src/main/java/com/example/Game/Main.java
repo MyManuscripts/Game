@@ -1,5 +1,8 @@
 package com.example.Game;
 
+import com.example.Game.character.Ork;
+import com.example.Game.weapon.Sword;
+
 public class Main {                        // 10
     public static void main(String[] args) {
         Ork ork = new Ork();                 // 11

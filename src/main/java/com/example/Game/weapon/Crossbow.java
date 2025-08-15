@@ -1,6 +1,6 @@
-package com.example.Game;
+package com.example.Game.weapon;
 
-public class Crossbow implements Weapon{
+public class Crossbow implements Weapon {
     String name;
     int damage;
 

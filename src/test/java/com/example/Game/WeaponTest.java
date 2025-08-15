@@ -1,6 +1,7 @@
 package com.example.Game;
 
-import org.junit.Test;
+import com.example.Game.weapon.Weapon;
+
 import static org.junit.Assert.assertEquals;
 
 public class WeaponTest {
