@@ -23,6 +23,7 @@ public class GameApplication {
 		System.out.println();
 
 		BattleSystem battleSystem = new BattleSystem(); // start battle
+		battleSystem.fight(ork,elf); // ← ork → character_1, elf → character_2
 
 
 	}

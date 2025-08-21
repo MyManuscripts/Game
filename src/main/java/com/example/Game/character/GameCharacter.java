@@ -89,4 +89,13 @@ public class GameCharacter implements WeaponHolder { // 41
         }*/
     }
 
+    // Напишем метод получения урона
+    public void takeDamage(int damage){
+        this.health -= damage; // this.health = this.health - damage;
+        if (health < 0)
+            this.health = 0;
+            System.out.println(getRace() + "take damage " + damage + " Health: " + health);
+
+    }
+
 }
