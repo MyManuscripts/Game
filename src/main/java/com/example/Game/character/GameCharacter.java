@@ -96,6 +96,6 @@ public class GameCharacter implements WeaponHolder { // 41
             this.health = 0;
             System.out.println(getRace() + "take damage " + damage + " Health: " + health);
 
-    }
+    } // теперь  takeDamage добавляем в BattleSystemы
 
 }

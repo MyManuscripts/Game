@@ -4,7 +4,12 @@ import com.example.Game.character.GameCharacter;
 import com.example.Game.character.Ork;
 import com.example.Game.weapon.Weapon;
 
+
+
 public class BattleSystem {
+
+    
+
     public void fight (GameCharacter character_1, GameCharacter character_2) {
         System.out.println("The fight begins! " + character_1.getRace() + " vs " + character_2.getRace());
 
