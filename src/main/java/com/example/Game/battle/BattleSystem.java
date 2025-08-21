@@ -8,7 +8,7 @@ import com.example.Game.weapon.Weapon;
 
 public class BattleSystem {
 
-    
+
 
     public void fight (GameCharacter character_1, GameCharacter character_2) {
         System.out.println("The fight begins! " + character_1.getRace() + " vs " + character_2.getRace());
@@ -39,10 +39,20 @@ public class BattleSystem {
 
         Weapon weapon = attacker_1.getWeapon(); // в weapon кладем персонажа с возможностью быть вооруженным
 
-        if (weapon==null){ // если у персонажа нет оружия
+        if ( weapon == null ){ // если у персонажа нет оружия
             System.out.println(attacker_1.getRace() + " hasn't weapon and punch with 5 damage ");
-
+            attacker_2.takeDamage(5);
+            return; // ?????????
         }
 
+        int baseDamage = weapon.getDamage();
+        int strengthBonus = attacker_1.getStrength() / 2;   // ????????
+        int totalDamage = baseDamage + strengthBonus;
+
+        System.out.println(attacker_1.getRace() + " attack with " + weapon.getName() + " !");
+        weapon.attack();
+        System.out.println("Doing " + totalDamage + " % damage.");
+
+        attacker_2.takeDamage(totalDamage);
     }
 }
