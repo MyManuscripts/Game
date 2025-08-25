@@ -16,7 +16,7 @@ public class BattleSystem {
         int round = 1;
 
 
-        /*while (character_1.getHealth()>0 && character_2.getHealth()>0){
+        while (character_1.getHealth()>0 && character_2.getHealth()>0){
             System.out.println("round: " + round);
 
             attack (character_1, character_2); // атакует первый персонаж
@@ -32,7 +32,7 @@ public class BattleSystem {
                 System.out.println(character_2 + " is win!");
                 System.out.println(character_1.getRace() + " is dead");
             }
-        }*/
+        }
     }
 
     public void attack(GameCharacter attacker_1, GameCharacter attacker_2){
